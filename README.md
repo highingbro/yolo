@@ -1,1 +1,1 @@
-# david
+simple lid detection 

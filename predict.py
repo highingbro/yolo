@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO('runs/detect/train/weights/best.pt')  # 根据实际路径调整
+model = YOLO('runs/detect/train/weights/best.pt')  
 
 results = model.predict(
     conf=0.5,                    # 置信度阈值

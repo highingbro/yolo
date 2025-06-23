@@ -16,4 +16,4 @@ while(True):
         # cv2.imwrite(filename, gray)
         cv2.imwrite(filename, frame1)
     elif(cv2.waitKey(1)==ord('q')):
-        break 梦游
+        break 
